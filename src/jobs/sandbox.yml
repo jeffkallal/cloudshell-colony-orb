@@ -1,24 +1,24 @@
 description: |
   Run your build scenario once sandbox environment is ready.
 parameters:
-  colony-token:
+  torque-token:
     description: |
-      Name of environment variable containing Colony API Token
+      Name of environment variable containing Torque API Token
     type: env_var_name
-    default: CS_COLONY_TOKEN
+    default: Torque_TOKEN
   colony-url:
     description: |
-      URL of Colony Server
+      URL of Torque Server
     type: env_var_name
-    default: CS_COLONY_SERVER
+    default: Torque_SERVER
   space:
     description: |
-      Name of Colony space
+      Name of Torque space
     type: env_var_name
-    default: CS_COLONY_SPACE
+    default: Torque_SPACE
   blueprint:
     description: |
-      Name of the blueprint used for creating a Colony sandbox.
+      Name of the blueprint used for creating a Torque sandbox.
     type: string
   sandbox-name:
     description: |
